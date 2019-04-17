@@ -2,6 +2,8 @@
 
 First, you should install project and run gazebo simulation
 
+Put nodes from this repository to src/plato then run `catkin build octolens` `catkin build octomesh`
+
 Octomap installation
 `sudo apt-get install ros-melodic-octomap ros-melodic-octomap-mapping ros-melodic-rosbridge_suite`
 
