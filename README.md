@@ -17,6 +17,10 @@ Octomap node execution
 
 `roslaunch rosbridge_server rosbridge_websocket.launch`
 
+Compressed markers(columns) here
+
+`/plato_ws/src/plato/octolens/scripts$ python compressed_markers.py`
+
 To publish 3d map
 `for i in {1..10000}; do rosrun octomesh mesh; done`
 
