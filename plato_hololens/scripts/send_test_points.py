@@ -9,7 +9,7 @@ def talker():
     pub_hum = rospy.Publisher('humans_poses_publisher', DenseHumans, queue_size=1)
     pub_obj = rospy.Publisher('objects_publisher', MyObjects, queue_size=1)
     rospy.init_node('pose_talker', anonymous=True)
-    classes = ['cat','dog','car','person','table','chair','window','door','tv','keyboard','bottle']
+    classes = ['person','table','chair','window','door','tv','bottle']
     r = rospy.Rate(1)  # 10hz
 
     while not rospy.is_shutdown():
