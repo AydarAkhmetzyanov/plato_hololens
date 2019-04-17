@@ -1,17 +1,17 @@
 # plato_hololens
 
-http://wiki.ros.org/octomap_server
-
 First, you should install project and run gazebo simulation
 
-Dependency installation
+Octomap installation
 `sudo apt-get install ros-melodic-octomap ros-melodic-octomap-mapping ros-melodic-rosbridge_suite`
+
+Rosbrige installation
+`sudo apt install ros-melodic-rosbridge-suite ros-melodic-rosbridge-server`
+
 
 Octomap node execution
 `cd ~/plato_ws/src/plato/octolens/launch`
 `roslaunch octolens octomap.launch`
-
-
 
 `roslaunch rosbridge_server rosbridge_websocket.launch`
 
