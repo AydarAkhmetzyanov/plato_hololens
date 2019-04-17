@@ -16,9 +16,7 @@ Octomap node execution
 `roslaunch rosbridge_server rosbridge_websocket.launch`
 
 To publish 3d map
-`
-for i in {1..10000}; do rosrun octomesh mesh; done
-`
+`for i in {1..10000}; do rosrun octomesh mesh; done`
 
 
 
