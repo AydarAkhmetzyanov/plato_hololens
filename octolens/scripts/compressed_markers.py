@@ -27,7 +27,7 @@ def prepare_compressed_marker_array():
         if(marker.action==0):
             msg.scale=marker.scale.z
             for point in marker.points:
-                if point.z < 1.9 and point.z>0.1:
+                if point.z < 2.3 and point.z>0.1:
                     if (point.x,point.y) in heights_map:
                         if point.z<heights_map[(point.x,point.y)]["min"]:
                             heights_map[(point.x,point.y)]["min"] = point.z
